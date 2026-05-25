@@ -1,20 +1,9 @@
-@font-face {
-  font-family: 'sf-light';
-  src: url('fonts/sf-ui-display/sf-ui-display-light-58646b33e0551.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'sf-medium';
-  src: url('fonts/sf-ui-display/sf-ui-display-medium-58646be638f96.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'sf-semibold';
-  src: url('fonts/sf-ui-display/sf-ui-display-semibold-58646eddcae92.otf') format('opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  font-family: 'sf-light';
+  font-family: 'Geist';
+  font-weight: 200;
+  letter-spacing: -1px;
   --primary-color: #2C2825;
   --secondary-color: #0599FE;
   --accent-color1: #F2F2F2;
@@ -37,8 +26,12 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
+h1 {
+  font-weight: 600;
+}
 
 header>main {
   padding: 10vh 10vw;
@@ -79,7 +72,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  font-family: 'sf-medium';
+  font-weight: 500;
 }
 
 nav ul li a {
@@ -89,11 +82,14 @@ nav ul li a {
 
 h1 {
   font-size: 80px;
+  line-height: 105%;
+  line-break: 1px;
 }
 
 h2 {
   font-size: 56px;
   line-height: 105%;
+  font-weight: 600;
 }
 
 h3 {
@@ -134,8 +130,120 @@ main>.subtitle {
   gap: 48px;
 }
 
+/* ── Button Lang ── */
+.lang-selector {
+  position: relative;
+  display: inline-block;
+}
 
-#btn-lenguage,
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--secondary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  min-width: 100px;
+  transition: background 0.15s ease, border-radius 0.15s ease;
+  outline: none;
+}
+
+.lang-btn:hover {
+  background: #1E88E5;
+}
+
+.lang-btn.open {
+  background: #1565C0;
+  border-radius: 8px 8px 0 0;
+}
+
+.lang-btn .globe-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  flex-shrink: 0;
+}
+
+.lang-btn .lang-label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  flex: 1;
+  text-align: left;
+}
+
+.lang-btn .chevron {
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.lang-btn.open .chevron {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown ── */
+.lang-menu {
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.lang-menu.open {
+  display: block;
+  animation: slideDown 0.15s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-option {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.1s ease;
+  border-top: 1px solid #f0f0f0;
+}
+
+.lang-option:hover {
+  background: #f5f5f5;
+}
+
+.lang-option.active {
+  background: #2196F3;
+  color: #fff;
+  font-weight: 600;
+  border-top-color: transparent;
+}
+
+.lang-option.active:hover {
+  background: #1E88E5;
+}
+
 #btn-primary {
   background-color: #0599FE;
   display: flex;
@@ -149,9 +257,6 @@ main>.subtitle {
   cursor: pointer;
 }
 
-#btn-lenguage {
-  padding: 0px 16px;
-}
 
 #btn-hero {
   background: var(--accent-color1);
@@ -160,7 +265,7 @@ main>.subtitle {
   padding: 14px 24px;
   border-radius: 8px;
   font-size: 16px;
-  font-family: 'sf-medium';
+  font-weight: 500;
   width: 200px;
 }
 
@@ -171,7 +276,7 @@ main>.subtitle {
   padding: 14px 24px;
   border-radius: 8px;
   font-size: 16px;
-  font-family: 'sf-medium';
+  font-weight: 500;
   border: 2px solid var(--accent-color1);
   width: 200px;
 }
@@ -317,6 +422,17 @@ main>.subtitle {
   color: var(--primary-background);
 }
 
+#conttato {
+  background-color: var(--primary-background);
+  color: var(--accent-color1);
+}
+
+#conttato>main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 @media (max-width: 768px) {
   nav {
     padding: 1vh 4vw;
@@ -416,14 +532,16 @@ main>.subtitle {
   #settori .sectors-container article {
     width: 100%;
   }
-  
-  #perche-sceglierci .title, #perche-sceglierci .card-container {
-      width: 100%;
+
+  #perche-sceglierci .title,
+  #perche-sceglierci .card-container {
+    width: 100%;
   }
 
   #perche-sceglierci .card-container {
-      width: 80%;
+    width: 80%;
   }
+
   #perche-sceglierci .card-container {
     padding: 5vh;
   }
