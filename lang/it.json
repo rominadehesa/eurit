@@ -1,6 +1,87 @@
 {
-    "hero": {
-        "title": "Un solo interlocutore. Infinite soluzioni.",
-        "subtitle" : "Dalla progettazione alla produzione: semplifichiamo la complessità industriale con soluzioni integrate."
+    "lang": {
+        "it": "Italiano",
+        "en": "Inglese",
+        "de": "Tedesco"
+    },
+    "nav": {
+        "about": "Chi siamo",
+        "services": "I nostri servizi",
+        "why": "Perché sceglierci",
+        "contact": "Contatto"
+    },
+    "header": {
+        "title": "Componenti e sottogruppi per l’industria",
+        "subtitle": "Dalla progettazione alla produzione",
+        "servicesBtn": "Scopri i nostri servizi",
+        "contactBtn": "Contattaci"
+    },
+    "stats": {
+        "founded": {
+            "number": "1969",
+            "label": "Anno di fondazione"
+        },
+        "experience": {
+            "number": "50+",
+            "label": "Anni di esperienza"
+        },
+        "industries": {
+            "number": "8+",
+            "label": "Settori serviti"
+        }
+    },
+    "about": {
+        "section": "Chi siamo",
+        "title": "Il partner strategico per la subfornitura industriale globale",
+        "text1": "Nati a Torino nel 1969, con solide radici nella tecnologia meccanica europea, abbiamo trasformato la nostra esperienza pluridecennale in un modello operativo capace di rispondere alle sfide dell'industria globale.",
+        "text2": "Oggi siamo un punto di riferimento nella fornitura di componenti industriali a disegno, operando sia come agenzia tecnico-commerciale sia come capocommessa, con un unico interlocutore responsabile della gestione di più commodity.",
+        "text3": "Grazie a una rete di fornitori qualificati in Europa, Cina e India e a consolidate competenze nella logistica internazionale, connettiamo i vostri progetti alle migliori tecnologie produttive globali, garantendo flessibilità, affidabilità e un approccio orientato alle reali esigenze del cliente.",
+        "button": "Conosci di più"
+    },
+    "services": {
+        "section": "I Nostri Servizi",
+        "title": "Soluzioni su Misura",
+        "agency": {
+            "label": "Agenzia Tecnico-Commerciale",
+            "description": "Operiamo come partner strategico sul territorio, connettendo le esigenze delle aziende manifatturiere con le capacità tecnologiche di impianti produttivi e fonderie d'eccellenza.",
+            "card1Title": "Co-design e Industrializzazione",
+            "card1Description": "Analizziamo il disegno tecnico del cliente per individuare la tecnologia produttiva più idonea ed efficiente.",
+            "card2Title": "Gestione Integrata della Commessa",
+            "card2Description": "Seguiamo l'intero iter, dalla quotazione economica alla realizzazione delle attrezzature e degli stampi fino alla validazione della campionatura.",
+            "card3Title": "Interfaccia Tecnica Dedicata",
+            "card3Description": "Garantiamo un flusso di comunicazione fluido e competenze ingegneristiche costanti tra il cliente e l'unità produttiva."
+        },
+        "procurement": {
+            "label": "Servizio di Capocommessa & Global Procurement",
+            "description": "Ci poniamo come interlocutore unico e responsabile per l'approvvigionamento di parti meccaniche, fusioni e sottoassiemi complessi, alleggerendo il cliente dalla gestione di filiere frammentate.",
+            "card1Title": "Sourcing Globale Qualificato",
+            "card1Description": "Attingiamo a un panel di fornitori selezionati e certificati in Europa, Cina e India.",
+            "card2Title": "Gestione Multi-Commodity",
+            "card2Description": "Centralizziamo l'acquisto di componenti realizzati con tecnologie diverse.",
+            "card3Title": "Hub Logistico e Consolidamento Export",
+            "card3Description": "Coordiniamo la programmazione degli ordini e i flussi logistici internazionali."
+        }
+    },
+    "processes": {
+        "title": "Principali Processi di Nostra Competenza",
+        "text": "Grazie a una consolidata rete di fonderie qualificate e partner produttivi, siamo in grado di fornire componenti realizzati con alcune delle più avanzate tecnologie di trasformazione dei materiali oggi disponibili.",
+        "card1": {
+            "title": "Pressofusione di Precisione",
+            "description": "Stampaggio ad alta pressione ideale per lotti di grande volume che richiedono tolleranze strette, ottime finiture superficiali e spessori sottili.",
+            "materials": {
+                "zamak": {
+                    "title": "Zamak (Leghe di Zinco)",
+                    "text": "Eccellente fluidità in colata, ideale per componenti complessi, pareti ultrasottili e particolari che richiedono trattamenti galvanici estetici di alto livello."
+                },
+                "aluminum": {
+                    "title": "Alluminio:",
+                    "text": " Il perfetto bilanciamento tra leggerezza, resistenza meccanica e conducibilità termica per il settore automotive e industriale."
+                },
+                "magnesium": {
+                    "title": "Magnesio:",
+                    "text": "La scelta d'elezione quando la massima riduzione del peso è un requisito strutturale fondamentale, senza compromettere la rigidità."
+                }
+            }
+        }
     }
 }

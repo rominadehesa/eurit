@@ -1,0 +1,87 @@
+{
+    "lang": {
+        "it": "Italian",
+        "en": "English",
+        "de": "German"
+    },
+    "nav": {
+        "about": "About Us",
+        "services": "Our Services",
+        "why": "Why Choose Us",
+        "contact": "Contact"
+    },
+    "header": {
+        "title": "Industrial Components and Subassemblies",
+        "subtitle": "From Design to Production",
+        "servicesBtn": "Explore Our Services",
+        "contactBtn": "Contact Us"
+    },
+    "stats": {
+        "founded": {
+            "number": "1969",
+            "label": "Established"
+        },
+        "experience": {
+            "number": "50+",
+            "label": "Years of Experience"
+        },
+        "industries": {
+            "number": "8+",
+            "label": "Industries Served"
+        }
+    },
+    "about": {
+        "section": "About Us",
+        "title": "Your Strategic Partner for Global Industrial Outsourcing",
+        "text1": "Founded in Turin in 1969, with strong roots in European mechanical engineering, we have transformed decades of experience into an operational model designed to meet the challenges of today's global industry.",
+        "text2": "Today, we are a trusted partner in the supply of custom-engineered industrial components, operating both as a technical-commercial agency and as a project manager, providing a single point of contact responsible for coordinating multiple product categories.",
+        "text3": "Thanks to a network of qualified suppliers across Europe, China and India, combined with extensive expertise in international logistics, we connect your projects with the most suitable global manufacturing technologies, ensuring flexibility, reliability and a customer-focused approach tailored to your specific needs.",
+        "button": "Learn More"
+    },
+    "services": {
+        "section": "Our Services",
+        "title": "Tailored Solutions",
+        "agency": {
+            "label": "Technical Sales Agency",
+            "description": "We operate as a strategic partner, connecting the needs of manufacturing companies with the technological capabilities of leading production facilities and foundries.",
+            "card1Title": "Co-Design and Industrialization",
+            "card1Description": "We analyze the customer's technical drawings to identify the most suitable and efficient manufacturing technology.",
+            "card2Title": "Integrated Project Management",
+            "card2Description": "We oversee the entire process, from quotation and cost evaluation to tooling and mold production, through to sample validation and approval.",
+            "card3Title": "Dedicated Technical Interface",
+            "card3Description": "We ensure seamless communication and continuous engineering support between the customer and the manufacturing facility."
+        },
+        "procurement": {
+            "label": "Project Management & Global Procurement",
+            "description": "We act as a single, accountable partner for the sourcing of mechanical components, castings and complex subassemblies, relieving customers from the challenges of managing fragmented supply chains.",
+            "card1Title": "Qualified Global Sourcing",
+            "card1Description": "We leverage a network of carefully selected and certified suppliers across Europe, China and India, ensuring full compliance with Western quality standards through audits and continuous on-site inspections.",
+            "card2Title": "Multi-Commodity Management",
+            "card2Description": "We centralize the procurement of components manufactured through different technologies, including stamping, foundry processes and CNC machining, delivering either complete packages or fully integrated subassemblies.",
+            "card3Title": "Logistics Hub & Export Consolidation",
+            "card3Description": "We coordinate order planning and international logistics flows. Our organization is structured to consolidate purchases and shipments from multiple European suppliers to overseas markets (e.g. ocean freight container shipments to the U.S. market), optimizing logistics costs and improving supply chain efficiency."
+        }
+    },
+    "processes": {
+        "title": "Our Core Manufacturing Expertise",
+        "text": "Thanks to a well-established network of qualified foundries and manufacturing partners, we are able to supply components produced using some of the most advanced material processing technologies available today.",
+        "card1": {
+            "title": "Precision Die Casting",
+            "description": "High-pressure casting technology ideally suited for high-volume production runs requiring tight tolerances, excellent surface finishes, and thin-wall designs.",
+            "materials": {
+                "zamak": {
+                    "title": "Zamak (Zinc Alloys)",
+                    "text": "Outstanding casting fluidity, making it ideal for complex geometries, ultra-thin walls, and components requiring premium decorative electroplating and surface finishing."
+                },
+                "aluminum": {
+                    "title": "Aluminum:",
+                    "text": "The perfect balance of lightweight performance, mechanical strength, and thermal conductivity for automotive and industrial applications."
+                },
+                "magnesium": {
+                    "title": "Magnesium:",
+                    "text": "The preferred choice when maximum weight reduction is a critical engineering requirement, without compromising structural rigidity."
+                }
+            }
+        }
+    }
+}

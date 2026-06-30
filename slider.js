@@ -1,10 +1,10 @@
 
   const slides = [
     { label: "Esperienza pluridecennale", text: "Oltre 50 anni di attività nel settore industriale ci hanno permesso di costruire una rete di fornitori qualificati e un know-how tecnico difficilmente replicabile." },
-    { label: "Slide 2", text: "Contenido del segundo slide..." },
-    { label: "Slide 3", text: "Contenido del tercer slide..." },
-    { label: "Slide 4", text: "Contenido del cuarto slide..." },
-    { label: "Slide 5", text: "Contenido del quinto slide..." },
+    { label: "Dalla progettazione alla fornitura in serie", text: "Affianchiamo i clienti fin dalla fase di sviluppo del prodotto, ottimizzando la scelta del processo produttivo e anticipando potenziali criticità." },
+    { label: "Gestione integrale della fornitura", text: "Ci occupiamo di tutto: ricerca fornitori, project management, gestione degli ordini in serie, controllo qualità, reclami, logistica e spedizioni." },
+    { label: "Approccio orientato al cliente", text: "Le vostre esigenze sono al centro di ogni nostra decisione. Non proponiamo soluzioni standard: ogni commessa viene trattata su misura." },
+    { label: "Ottimizzazione della base fornitori", text: "Riduciamo la complessità del vostro parco fornitori consolidando più commodity in un unico partner, con vantaggi in termini di costi e governance." },
   ];
 
   let cur = 0;

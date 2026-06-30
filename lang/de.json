@@ -1,0 +1,87 @@
+{
+    "lang": {
+        "it": "Italienisch",
+        "en": "Englisch",
+        "de": "Deutsch"
+    },
+    "nav": {
+        "about": "Über uns",
+        "services": "Unsere Leistungen",
+        "why": "Warum wir",
+        "contact": "Kontakt"
+    },
+    "header": {
+        "title": "Industriekomponenten und Baugruppen",
+        "subtitle": "Von der Entwicklung bis zur Produktion",
+        "servicesBtn": "Unsere Leistungen entdecken",
+        "contactBtn": "Kontaktieren Sie uns"
+    },
+    "stats": {
+        "founded": {
+            "number": "1969",
+            "label": "Gegründet"
+        },
+        "experience": {
+            "number": "50+",
+            "label": "Jahre Erfahrung"
+        },
+        "industries": {
+            "number": "8+",
+            "label": "Branchen beliefert"
+        }
+    },
+    "about": {
+        "section": "Über uns",
+        "title": "Ihr strategischer Partner für globale industrielle Beschaffung",
+        "text1": "Gegründet 1969 in Turin und mit starken Wurzeln im europäischen Maschinenbau haben wir unsere jahrzehntelange Erfahrung in ein Geschäftsmodell umgesetzt, das den Herausforderungen der globalen Industrie gerecht wird.",
+        "text2": "Heute sind wir ein zuverlässiger Partner für die Lieferung kundenspezifischer Industriekomponenten. Dabei agieren wir sowohl als technisch-kaufmännische Vertretung als auch als Projektverantwortlicher und bieten einen zentralen Ansprechpartner für die Koordination mehrerer Produktgruppen.",
+        "text3": "Dank eines Netzwerks qualifizierter Lieferanten in Europa, China und Indien sowie umfassender Kompetenz im internationalen Logistikmanagement verbinden wir Ihre Projekte mit den passenden globalen Fertigungstechnologien und gewährleisten Flexibilität, Zuverlässigkeit sowie eine konsequente Ausrichtung an Ihren individuellen Anforderungen.",
+        "button": "Mehr erfahren"
+    },
+    "services": {
+        "section": "Unsere Leistungen",
+        "title": "Maßgeschneiderte Lösungen",
+        "agency": {
+            "label": "Technisch-kaufmännische Vertretung",
+            "description": "Wir agieren als strategischer Partner und verbinden die Anforderungen von Industrieunternehmen mit den technologischen Kompetenzen führender Produktionsstätten und Gießereien.",
+            "card1Title": "Co-Design und Industrialisierung",
+            "card1Description": "Wir analysieren die technischen Zeichnungen unserer Kunden, um die geeignetste und effizienteste Fertigungstechnologie zu identifizieren.",
+            "card2Title": "Integriertes Projektmanagement",
+            "card2Description": "Wir begleiten den gesamten Prozess – von der Angebotserstellung und Kostenkalkulation über die Herstellung von Werkzeugen und Formen bis hin zur Validierung und Freigabe der Erstmuster.",
+            "card3Title": "Dedizierte technische Schnittstelle",
+            "card3Description": "Wir gewährleisten einen reibungslosen Kommunikationsfluss und eine kontinuierliche technische Betreuung zwischen Kunde und Produktionsstandort."
+        },
+        "procurement": {
+            "label": "Projektmanagement & Global Procurement",
+            "description": "Wir fungieren als zentraler und verantwortlicher Ansprechpartner für die Beschaffung von mechanischen Komponenten, Gussteilen und komplexen Baugruppen und entlasten unsere Kunden von der Verwaltung fragmentierter Lieferketten.",
+            "card1Title": "Qualifiziertes Global Sourcing",
+            "card1Description": "Durch ein Netzwerk sorgfältig ausgewählter und zertifizierter Lieferanten in Europa, China und Indien gewährleisten wir die Einhaltung westlicher Qualitätsstandards mittels Audits und kontinuierlicher Qualitätskontrollen vor Ort.",
+            "card2Title": "Multi-Commodity-Management",
+            "card2Description": "Wir bündeln die Beschaffung von Komponenten, die mit unterschiedlichen Fertigungstechnologien hergestellt werden – darunter Umformtechnik, Gießereiverfahren und CNC-Bearbeitung – und liefern komplette Pakete oder bereits integrierte Baugruppen.",
+            "card3Title": "Logistik-Hub & Exportkonsolidierung",
+            "card3Description": "Wir koordinieren die Auftragsplanung sowie internationale Logistikprozesse. Unsere Struktur ermöglicht die Bündelung von Beschaffung und Transporten verschiedener europäischer Lieferanten in Überseemärkte (z. B. Container-Seefracht für den US-Markt), wodurch Logistikkosten optimiert und Lieferketten effizienter gestaltet werden."
+        }
+    },
+    "processes": {
+        "title": "Unsere Kernkompetenzen in der Fertigung",
+        "text": "Dank eines etablierten Netzwerks qualifizierter Gießereien und Fertigungspartner sind wir in der Lage, Komponenten zu liefern, die mit den modernsten Werkstoffverarbeitungstechnologien hergestellt werden.",
+        "card1": {
+            "title": "Präzisionsdruckguss",
+            "description": "Hochdruck-Gießverfahren, ideal für große Produktionsserien mit engen Toleranzen, hervorragender Oberflächenqualität und dünnwandigen Bauteilen.",
+            "materials": {
+                "zamak": {
+                    "title": "Zamak (Zinklegierungen)",
+                    "text": "Hervorragende Fließeigenschaften beim Gießen, ideal für komplexe Geometrien, extrem dünne Wandstärken und Bauteile mit hochwertigen galvanischen Oberflächenveredelungen."
+                },
+                "aluminum": {
+                    "title": "Aluminium",
+                    "text": "Die perfekte Kombination aus geringem Gewicht, mechanischer Festigkeit und Wärmeleitfähigkeit für Anwendungen in der Automobil- und Industriebranche."
+                },
+                "magnesium": {
+                    "title": "Magnesium",
+                    "text": "Die bevorzugte Wahl, wenn maximale Gewichtsreduzierung eine entscheidende technische Anforderung ist, ohne die strukturelle Steifigkeit zu beeinträchtigen."
+                }
+            }
+        }
+    }
+}
