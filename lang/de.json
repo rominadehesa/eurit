@@ -7,6 +7,7 @@
     "nav": {
         "about": "Über uns",
         "services": "Unsere Leistungen",
+        "sector" : "Lösungen und Dienstleistungen",
         "why": "Warum wir",
         "contact": "Kontakt"
     },
@@ -66,7 +67,7 @@
         "title": "Unsere Kernkompetenzen in der Fertigung",
         "text": "Dank eines etablierten Netzwerks qualifizierter Gießereien und Fertigungspartner sind wir in der Lage, Komponenten zu liefern, die mit den modernsten Werkstoffverarbeitungstechnologien hergestellt werden.",
         "card1": {
-            "title": "Präzisionsdruckguss",
+            "title": "Präzisions - druckguss",
             "description": "Hochdruck-Gießverfahren, ideal für große Produktionsserien mit engen Toleranzen, hervorragender Oberflächenqualität und dünnwandigen Bauteilen.",
             "materials": {
                 "zamak": {

@@ -121,6 +121,10 @@ h4 {
   color: var(--primary-background);
 }
 
+#conttato .section-title {
+  color: var(--accent-color2);
+}
+
 .subtitle {
   font-size: 32px;
   line-height: 100%;
@@ -134,6 +138,7 @@ h4 {
 .paragraph2 {
   font-size: 18px;
   line-height: 135%;
+  margin-bottom: 0;
 }
 
 main>.subtitle {
@@ -332,18 +337,18 @@ main>.subtitle {
   background: var(--secondary-background);
 }
 
-#about > main {
+#about>main {
   display: flex;
   flex-direction: column;
   gap: 32px;
   width: 45%;
 }
 
-#about > main .paragraph2 {
+#about>main .paragraph2 {
   color: var(--primary-color);
 }
 
-#about > img {
+#about>img {
   width: 45%;
 }
 
@@ -371,11 +376,11 @@ main>.subtitle {
 }
 
 #our-services .container-details article {
-    display: none;
+  display: none;
 }
 
 #our-services .container-details article.active {
-    display: block;
+  display: block;
 }
 
 #our-services ul {
@@ -390,6 +395,18 @@ main>.subtitle {
   width: 60%;
 }
 
+.container-details article {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height .4s ease, opacity .3s ease;
+}
+
+.container-details article.active {
+  max-height: 1000px;
+  opacity: 1;
+}
+
 #our-services .container-details header {
   border-bottom: 2px solid var(--accent-color1);
   margin-bottom: 20px;
@@ -399,7 +416,8 @@ main>.subtitle {
   color: var(--accent-color1);
 }
 
-#our-services .container-details .element {
+#our-services .container-details .element,
+.modal-content .item-modal {
   display: flex;
   gap: 26px;
   background-color: var(--primary-background-dark);
@@ -408,15 +426,17 @@ main>.subtitle {
   margin-bottom: 10px;
 }
 
-#our-services .container-details .element .section-title {
+#our-services .container-details .element .section-title,
+.modal-content .item-modal .section-title {
   color: var(--accent-color1);
   font-weight: 500;
   line-height: 100%;
   margin: 0;
 }
 
-#our-services .container-details .element .paragraph2 {
-   color: var(--accent-color1);
+#our-services .container-details .element .paragraph2,
+.modal-content .item-modal .paragraph2 {
+  color: var(--accent-color1);
 }
 
 #our-services .services-menu li {
@@ -431,6 +451,10 @@ main>.subtitle {
 
 #our-services .services-menu li.active {
   font-weight: bold;
+}
+
+#our-services .services-menu .arrow {
+  display: none;
 }
 
 #processes {
@@ -459,7 +483,7 @@ main>.subtitle {
   color: #F2F2F2;
 }
 
-#processes main article .btn {  
+#processes main article .btn {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   display: flex;
@@ -475,14 +499,14 @@ main>.subtitle {
   gap: 20px;
 }
 
-#processes main article .btn:hover {  
+#processes main article .btn:hover {
   background: rgba(255, 255, 255, 0.71);
   cursor: pointer;
 }
 
 
 
-#processes main article{
+#processes main article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -508,7 +532,8 @@ main>.subtitle {
   color: var(--accent-color1);
 }
 
-#soluzioni > .section-title, #our-services .section-title{
+#soluzioni>.section-title,
+#our-services .section-title {
   color: var(--accent-color2);
 }
 
@@ -546,11 +571,11 @@ main>.subtitle {
   font-size: 20px;
 }
 
-#settori > div {
+#settori>div {
   text-align: center;
 }
 
-#settori > div h2 {
+#settori>div h2 {
   margin-bottom: 16px;
 }
 
@@ -572,8 +597,12 @@ main>.subtitle {
   transition: filter 0.3s ease;
 }
 
+#settori .sectors-container article p {
+  font-weight: 500;
+}
+
 #settori .sectors-container article img:hover {
-    filter: brightness(1.5);
+  filter: brightness(1.5);
 }
 
 #perche-sceglierci {
@@ -600,7 +629,7 @@ main>.subtitle {
 #perche-sceglierci .card-container .p-card {
   text-transform: uppercase;
   color: var(--primary-background);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
@@ -616,7 +645,7 @@ main>.subtitle {
   justify-content: space-between;
 }
 
-#conttato > main {
+#conttato>main {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -657,7 +686,7 @@ footer ul {
   width: 50%;
 }
 
-footer ul li a{
+footer ul li a {
   color: var(--accent-color1);
   text-decoration: none;
 }
@@ -669,7 +698,7 @@ footer ul li a{
 
   header>main,
   .padding-section {
-    padding: 7vh 5vw;
+    padding: 48px 24px;
   }
 
   header>main,
@@ -795,17 +824,17 @@ footer ul li a{
     font-size: 32px;
   }
 
-  #about > main {
+  #about>main {
     gap: 24px;
   }
 
-  #conttato > main {
+  #conttato>main {
     gap: 16px;
   }
 
   #conttato {
     flex-direction: column;
-     align-items: start;
+    align-items: start;
     gap: 40px;
   }
 
@@ -907,8 +936,23 @@ button {
     width: 100%;
   }
 
-  #our-services main, footer {
+  #our-services main,
+  footer {
     display: block;
+  }
+
+  #our-services .services-menu .arrow {
+    display: block;
+  }
+
+  .services-menu .arrow {
+    display: block;
+    font-size: 20px;
+    transition: transform .3s ease;
+  }
+
+  .services-menu li.active .arrow {
+    transform: rotate(180deg);
   }
 
   #processes main {
@@ -916,20 +960,24 @@ button {
     align-items: center;
   }
 
-  #processes h2, #processes p {
+  #processes h2,
+  #processes p {
     text-align: center;
   }
 
   #processes main article {
-    width: 276px;
-    height: 328px;
+    width: auto;
+    height: 30vh;
   }
 
-  #our-services ul, #our-services .container-details, #processes main{
+  #our-services ul,
+  #our-services .container-details,
+  #processes main {
     width: 100%;
   }
-    #settori .sectors-container article img {
-      width: 100%;
+
+  #settori .sectors-container article img {
+    width: 100%;
   }
 
   #valori article .paragraph2 {
@@ -959,5 +1007,76 @@ button {
     line-height: 100%;
     font-weight: 500;
     letter-spacing: -5%;
+  }
+}
+
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal .modal-close {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.modal[hidden] {
+  display: none;
+}
+
+.modal-content {
+  background: var(--primary-background);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 60vw;
+  height: 70vh;
+}
+
+.modal-content .items {
+  overflow-y: scroll;
+  padding-right: 2vh;
+}
+
+.modal-content .section-title {
+  color: var(--accent-color2);
+}
+
+.modal-content>div>p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 108%;
+}
+
+@media (max-width: 768px) {
+  
+  .modal-content {
+    max-width: 75vw;
+    height: 60%;
+    text-align: start;
+  }
+
+  .modal-content .items .item-modal {
+    flex-direction: column;
+  }
+
+  #processes .modal-content h2,
+  #processes .modal-content p {
+    text-align: start;
+  }
+
+  #processes .modal-content>div>p {
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
   }
 }

@@ -18,6 +18,7 @@
                 <ul>
                     <li><a href="#about" data-i18n="nav.about">Chi siamo</a></li>
                     <li><a href="#our-services" data-i18n="nav.services">Chi siamo</a></li>
+                    <li><a href="#settori" data-i18n="nav.sector">Soluzioni e servizi</a></li>
                     <li><a href="#perche-sceglierci" data-i18n="nav.why"></a></li>
                     <li><a href="#conttato" data-i18n="nav.contact">Contatto</a></li>
                 </ul>
@@ -127,11 +128,6 @@
                 </p>
             </div>
 
-            <div>
-                <button id="btn-primary" data-i18n="about.button">
-                    Scopri di più
-                </button>
-            </div>
         </main>
     </section>
 
@@ -142,8 +138,20 @@
         </div>
         <main>
             <ul class="services-menu">
-                <li id="item1" class="active">Agenzia Tecnico-Commerciale</li>
-                <li id="item2">Servizio di Capocommessa & Global Procurement</li>
+                <li id="item1" class="active">Agenzia Tecnico-Commerciale <div class="arrow"><svg width="14" height="8"
+                            viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L13 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </li>
+                <li id="item2">Servizio di Capocommessa & Global Procurement <div class="arrow"><svg width="14"
+                            height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L13 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </li>
             </ul>
 
             <div class="container-details">
@@ -386,7 +394,7 @@
                 </div>
                 <div class="footer">
                     <h4 data-i18n="processes.card1.title"></h4>
-                    <div class="btn">
+                    <div class="btn" data-modal-target="modal-1">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.6667 10.6667H10.6667V18.6667H8V10.6667H0V8H8V0H10.6667V8H18.6667V10.6667Z"
                                 fill="#A3A3A3" />
@@ -404,7 +412,7 @@
                 </div>
                 <div class="footer">
                     <h4>Microfusioni (Investment Casting)</h4>
-                    <div class="btn">
+                    <div class="btn" data-modal-target="modal-2">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.6667 10.6667H10.6667V18.6667H8V10.6667H0V8H8V0H10.6667V8H18.6667V10.6667Z"
                                 fill="#A3A3A3" />
@@ -429,7 +437,7 @@
                 </div>
                 <div class="footer">
                     <h4>Forgiati (Stampaggio a Caldo)</h4>
-                    <div class="btn">
+                    <div class="btn" data-modal-target="modal-3">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.6667 10.6667H10.6667V18.6667H8V10.6667H0V8H8V0H10.6667V8H18.6667V10.6667Z"
                                 fill="#A3A3A3" />
@@ -455,7 +463,7 @@
                 </div>
                 <div class="footer">
                     <h4>Lavorazioni Meccaniche di Precisione</h4>
-                    <div class="btn">
+                    <div class="btn" data-modal-target="modal-4">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.6667 10.6667H10.6667V18.6667H8V10.6667H0V8H8V0H10.6667V8H18.6667V10.6667Z"
                                 fill="#A3A3A3" />
@@ -463,6 +471,117 @@
                     </div>
                 </div>
             </article>
+
+            <div class="modal" id="modal-1" hidden>
+                <div class="modal-content">
+                    <div class="modal-close" data-close-modal>
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.86667 18.6667L0 16.8L7.46667 9.33333L0 1.86667L1.86667 0L9.33333 7.46667L16.8 0L18.6667 1.86667L11.2 9.33333L18.6667 16.8L16.8 18.6667L9.33333 11.2L1.86667 18.6667Z"
+                                fill="#FAFAFA" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Pressofusione di Precisione</h2>
+                        <p>Stampaggio ad alta pressione ideale per lotti di grande volume che richiedono tolleranze
+                            strette, ottime finiture superficiali e spessori sottili.</p>
+                    </div>
+                    <div class="items">
+                        <div class="item-modal">
+                            <div>
+                                <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="55" height="55" rx="12" fill="#E7E9ED" />
+                                    <path
+                                        d="M27.5 16.5266L26.5 17.6466C26.5 17.6466 24.7933 19.5799 23.0733 22.0866C21.3533 24.5933 19.5 27.5933 19.5 30.4733C19.5 32.595 20.3429 34.6298 21.8431 36.1301C23.3434 37.6304 25.3783 38.4733 27.5 38.4733C29.6217 38.4733 31.6566 37.6304 33.1569 36.1301C34.6571 34.6298 35.5 32.595 35.5 30.4733C35.5 27.5933 33.6467 24.5933 31.9267 22.0866C30.2067 19.5799 28.5 17.6466 28.5 17.6466L27.5 16.5266ZM27.5 20.6999C28.0867 21.3933 28.62 21.9666 29.74 23.5933C31.3533 25.9399 32.8333 28.9266 32.8333 30.4733C32.8333 33.4333 30.46 35.8066 27.5 35.8066C24.54 35.8066 22.1667 33.4333 22.1667 30.4733C22.1667 28.9266 23.6467 25.9399 25.26 23.5933C26.38 21.9666 26.9133 21.3933 27.5 20.6999Z"
+                                        fill="#0599FE" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="section-title">Zama (Leghe di Zinco):</p>
+                                <p class="paragraph2">Eccellente fluidità in colata, ideale per componenti complessi,
+                                    pareti
+                                    ultrasottili e particolari che richiedono trattamenti galvanici estetici di alto
+                                    livello.</p>
+                            </div>
+                        </div>
+                        <div class="item-modal">
+                            <div>
+                                <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="55" height="55" rx="12" fill="#E7E9ED" />
+                                    <g clip-path="url(#clip0_387_1432)">
+                                        <path d="M15.5 24.8333V32.8333" stroke="#0599FE" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M27.5 18.1667V22.1667" stroke="#0599FE" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M24.8333 18.1667H30.1666" stroke="#0599FE" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M18.1667 28.8333H15.5" stroke="#0599FE" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M22.1667 24.8334H19.5V32.8334H22.1667L24.4373 36.2401C24.5591 36.4226 24.7241 36.5723 24.9176 36.6758C25.1111 36.7793 25.3272 36.8334 25.5467 36.8334H30.1667C30.5203 36.8334 30.8594 36.6929 31.1095 36.4429C31.3595 36.1928 31.5 35.8537 31.5 35.5001V32.8334H35.5V35.5001H38.1667C38.5203 35.5001 38.8594 35.3596 39.1095 35.1096C39.3595 34.8595 39.5 34.5204 39.5 34.1667V26.1667C39.5 25.8131 39.3595 25.474 39.1095 25.2239C38.8594 24.9739 38.5203 24.8334 38.1667 24.8334H35.5V27.5001H33.6573C33.4098 27.4999 33.1672 27.4309 32.9566 27.3007C32.7461 27.1705 32.576 26.9842 32.4653 26.7627L30.5347 22.9041C30.424 22.6826 30.2539 22.4964 30.0434 22.3662C29.8328 22.2359 29.5902 22.1669 29.3427 22.1667H24.8333L22.1667 24.8334Z"
+                                            stroke="#0599FE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_387_1432">
+                                            <rect width="32" height="32" fill="white"
+                                                transform="translate(11.5 11.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <div>
+                                <p class="section-title">Alluminio:</p>
+                                <p class="paragraph2"> Il perfetto bilanciamento tra leggerezza, resistenza meccanica e
+                                    conducibilità termica per il settore automotive e industriale.</p>
+                            </div>
+                        </div>
+                        <div class="item-modal">
+                            <div>
+                                <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="55" height="55" rx="12" fill="#E7E9ED" />
+                                    <g clip-path="url(#clip0_387_1442)">
+                                        <path
+                                            d="M24.6716 22.3284C23.9214 21.5783 23.5 20.5609 23.5 19.5C23.5 18.4391 23.9214 17.4217 24.6716 16.6716C25.4217 15.9214 26.4391 15.5 27.5 15.5C28.5609 15.5 29.5783 15.9214 30.3284 16.6716C31.0786 17.4217 31.5 18.4391 31.5 19.5C31.5 20.5609 31.0786 21.5783 30.3284 22.3284C29.5783 23.0786 28.5609 23.5 27.5 23.5C26.4391 23.5 25.4217 23.0786 24.6716 22.3284Z"
+                                            stroke="#0599FE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M34.3867 23.5H20.6134C20.3011 23.5 19.9987 23.6095 19.759 23.8095C19.5192 24.0096 19.3573 24.2875 19.3014 24.5947L17.1187 36.5947C17.0837 36.7868 17.0914 36.9843 17.1412 37.1732C17.191 37.3621 17.2817 37.5377 17.4068 37.6877C17.532 37.8376 17.6886 37.9583 17.8655 38.041C18.0424 38.1238 18.2354 38.1667 18.4307 38.1667H36.5694C36.7647 38.1667 36.9576 38.1238 37.1346 38.041C37.3115 37.9583 37.4681 37.8376 37.5932 37.6877C37.7184 37.5377 37.8091 37.3621 37.8589 37.1732C37.9086 36.9843 37.9163 36.7868 37.8814 36.5947L35.6987 24.5947C35.6428 24.2875 35.4809 24.0096 35.2411 23.8095C35.0013 23.6095 34.699 23.5 34.3867 23.5Z"
+                                            stroke="#0599FE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_387_1442">
+                                            <rect width="32" height="32" fill="white"
+                                                transform="translate(11.5 11.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <div>
+                                <p class="section-title">Magnesio:</p>
+                                <p class="paragraph2"> La scelta d'elezione quando la massima riduzione del peso è un
+                                    requisito strutturale fondamentale, senza compromettere la rigidità. La scelta
+                                    d'elezione quando la massima riduzione del peso è un requisito strutturale
+                                    fondamentale, senza compromettere la rigidità.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-2" hidden>
+                <div class="modal-content">
+                    <button class="modal-close" data-close-modal>&times;</button>
+                    <h2 class="section-title">Pressofusione di Precisione</h2>
+                    <p>Stampaggio ad alta pressione ideale per lotti di grande volume che richiedono tolleranze strette,
+                        ottime finiture superficiali e spessori sottili.</ </div>
+                </div>
         </main>
     </section>
 
@@ -524,7 +643,7 @@
 
     <section class="padding-section" id="conttato">
         <main class="">
-            <h2 class="section-title">Chi siamo</h2>
+            <h2 class="section-title">Conttato</h2>
 
             <h2 class="">Parliamo del vostro progetto</h2>
             <div>
@@ -532,18 +651,21 @@
             </div>
         </main>
         <div>
-            <button id="btn-primary">
-                <div>
-                    <span>
-                        Schedule a Consult
-                    </span>
-                </div>
-                <div>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#FAFAFA" />
-                    </svg>
-                </div>
-            </button>
+            <a href="mailto:eurit@gmail.com">
+                <button id="btn-primary">
+                    <div>
+                        <span>
+                            Schedule a Consult
+                        </span>
+                    </div>
+                    <div>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
+                                fill="#FAFAFA" />
+                        </svg>
+                    </div>
+                </button>
+            </a>
         </div>
     </section>
 
@@ -562,6 +684,7 @@
             <li><a href="#conttato" data-i18n="nav.contact">Contatto</a></li>
         </ul>
     </footer>
+    <script src="modals.js"></script>
     <script src="lang/change-lang.js"></script>
     <script src="slider.js"></script>
     <script src="js.js"></script>
