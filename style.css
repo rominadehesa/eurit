@@ -418,6 +418,7 @@ main>.subtitle {
 
 #our-services .container-details header .section-title {
   color: var(--accent-color1);
+  letter-spacing: 1%;
 }
 
 #our-services .container-details .element,
@@ -997,7 +998,7 @@ button {
 
   #processes main article {
     width: auto;
-    height: 30vh;
+    height: 25vh;
   }
 
   #our-services ul,
