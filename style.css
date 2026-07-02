@@ -133,12 +133,14 @@ h4 {
 
 .paragraph1 {
   font-size: 22px;
+  letter-spacing: 1%;
 }
 
 .paragraph2 {
   font-size: 18px;
   line-height: 135%;
   margin-bottom: 0;
+  letter-spacing: 1%;
 }
 
 main>.subtitle {
