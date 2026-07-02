@@ -136,6 +136,10 @@ h4 {
   letter-spacing: 1%;
 }
 
+#valori .paragraph2 {
+  margin-top: 14px;
+}
+
 .paragraph2 {
   font-size: 18px;
   line-height: 135%;
@@ -699,6 +703,10 @@ footer ul li a {
     padding: 48px 24px;
   }
 
+  header>main>div {
+    height: 50vh;
+  }
+
   header>main,
   nav ul,
   #valori,
@@ -941,7 +949,7 @@ button {
   }
 
   .subtitle {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: -0.5%;
   }
