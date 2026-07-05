@@ -589,14 +589,17 @@ main>.subtitle {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
-#settori .sectors-container article {
-  width: 25%;
-}
-
-#settori .sectors-container article img {
+#settori .sectors-container article div {
   border-radius: 20px;
+  background: var(--primary-background);
+  height: 230px;
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: margin-top 0.3s ease;
 }
 
@@ -604,7 +607,7 @@ main>.subtitle {
   font-weight: 500;
 }
 
-#settori .sectors-container article img:hover {
+#settori .sectors-container article div:hover {
   margin-top: -20px;
 }
 
@@ -812,6 +815,11 @@ footer ul li a {
     width: 100%;
   }
 
+  #settori .sectors-container article div svg {
+    width: 70px;
+    height: auto;
+  }
+
   #perche-sceglierci .title,
   #perche-sceglierci .card-container {
     width: 100%;
@@ -1011,8 +1019,9 @@ button {
     width: 100%;
   }
 
-  #settori .sectors-container article img {
-    width: 90%;
+  #settori .sectors-container article div {
+    width: auto;
+    height: 180px;
   }
 
   #valori article .paragraph2 {
