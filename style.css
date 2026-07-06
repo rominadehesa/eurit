@@ -268,8 +268,10 @@ main>.subtitle {
 .lang-option.active {
   background: #2196F3;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   border-top-color: transparent;
+  border-radius: 8px;
+  margin: 1px;
 }
 
 .lang-option.active:hover {
@@ -713,7 +715,7 @@ footer ul li a {
   nav {
     box-sizing: border-box;
     padding: 1vh 4vw;
-    height: 7vh;
+    height: 8vh;
     position: fixed;
     top: 0;
     left: 0;
