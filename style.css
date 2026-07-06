@@ -32,7 +32,7 @@ h6 {
 
 header>main {
   padding: 10vh 10vw;
-  height: 70vh;
+  height: 80vh;
   text-align: center;
   background-image: url('images/background-test.png');
   background-size: cover;
@@ -70,6 +70,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1vh 10vw;
+  background-color: #FAFAFA;
 }
 
 nav ul {
@@ -271,6 +272,11 @@ main>.subtitle {
   background: #1E88E5;
 }
 
+#btn-burger {
+  display: none;
+  cursor: pointer;
+}
+
 #btn-primary {
   background-color: #0599FE;
   display: flex;
@@ -462,7 +468,7 @@ main>.subtitle {
 }
 
 #processes {
-  background-image: url('images/process.png');
+  background-image: url('images/background-test.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--accent-color1);
@@ -524,6 +530,8 @@ main>.subtitle {
   backdrop-filter: blur(21px);
   border-radius: 20px;
 }
+
+
 
 
 #soluzioni {
@@ -700,6 +708,7 @@ footer ul li a {
 @media (max-width: 768px) {
   nav {
     padding: 1vh 4vw;
+    height: 5vh;
   }
 
   header>main,
@@ -713,13 +722,15 @@ footer ul li a {
 
   header>main,
   nav ul,
-  #valori,
-  .nav-right {
+  #valori {
     display: block;
   }
 
   header>main {
-    height: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   nav ul {
@@ -1123,6 +1134,19 @@ button {
     line-height: 100%;
     letter-spacing: -2%;
   }
+
+  #btn-burger {
+    display: block;
+  }
+
+  #nav-mobile {
+    display: none;
+  }
+
+  .nav-right {
+    width: 50%;
+    justify-content: space-between;
+  }
 }
 
 
@@ -1143,4 +1167,24 @@ button {
     display: block;
   }
 
+}
+
+
+#nav-mobile.active {
+  display: block;
+  position: fixed;
+  top: 5vh;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  background-color: #E7E9ED;
+}
+
+#nav-mobile.active li {
+  margin: 16px 0;
+}
+
+nav.active {
+  background-color: #E7E9ED;
 }
