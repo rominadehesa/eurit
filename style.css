@@ -66,11 +66,15 @@ header .subtitle {
 }
 
 nav {
+  box-sizing: border-box;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1vh 10vw;
   background-color: #FAFAFA;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
@@ -227,7 +231,7 @@ main>.subtitle {
   border-top: none;
   border-radius: 0 0 8px 8px;
   overflow: hidden;
-  z-index: 100;
+  z-index: 2000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
@@ -707,8 +711,14 @@ footer ul li a {
 
 @media (max-width: 768px) {
   nav {
+    box-sizing: border-box;
     padding: 1vh 4vw;
-    height: 5vh;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
   }
 
   header>main,
@@ -1020,7 +1030,7 @@ button {
   }
 
   #processes main article {
-    width: auto;
+    width: 90%;
     height: 25vh;
   }
 
