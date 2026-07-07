@@ -172,7 +172,7 @@ main>.subtitle {
 .lang-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   background: var(--secondary-color);
   border: none;
   border-radius: 8px;
@@ -202,9 +202,11 @@ main>.subtitle {
 .lang-btn .lang-label {
   color: #fff;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   flex: 1;
   text-align: left;
+  text-transform: uppercase;
+
 }
 
 .lang-btn .chevron {
@@ -299,6 +301,10 @@ main>.subtitle {
   cursor: pointer;
 }
 
+#btn-primary:hover {
+  background-color: #1E88E5;
+}
+
 
 #btn-hero {
   background: var(--accent-color1);
@@ -311,6 +317,10 @@ main>.subtitle {
   width: 300px;
 }
 
+#btn-hero:hover {
+  background: #fff;
+}
+
 #btn-hero-outline {
   background: transparent;
   color: var(--accent-color1);
@@ -321,6 +331,11 @@ main>.subtitle {
   font-weight: 500;
   border: 2px solid var(--accent-color1);
   width: 300px;
+}
+
+#btn-hero-outline:hover {
+  color: #fff;
+ border: 2.3px solid #fff;
 }
 
 
