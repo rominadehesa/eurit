@@ -257,6 +257,7 @@ main>.subtitle {
   padding: 10px 16px;
   cursor: pointer;
   font-size: 14px;
+  letter-spacing: 1%;
   color: #333;
   transition: background 0.1s ease;
   border-top: 1px solid #f0f0f0;
@@ -330,7 +331,7 @@ main>.subtitle {
   align-items: center;
   text-align: center;
   color: var(--accent-color1);
-  padding: 30px 150px;
+  padding: 50px 150px;
 }
 
 #valori article {
@@ -678,6 +679,25 @@ footer {
   justify-content: space-between;
   align-items: end;
   gap: 100px;
+}
+
+#creators {
+  background-color: #0599FE;
+  color: var(--accent-color1);
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
+#creators p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#creators p a {
+  color: var(--accent-color1);
+  text-decoration: none;
+  font-weight: 500;
 }
 
 footer div {
@@ -1048,7 +1068,7 @@ button {
 
   #settori .sectors-container article div {
     width: auto;
-    height: 180px;
+    height: 220px;
   }
 
   #valori article .paragraph2 {
