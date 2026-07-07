@@ -257,7 +257,7 @@ main>.subtitle {
   padding: 10px 16px;
   cursor: pointer;
   font-size: 14px;
-  letter-spacing: 1%;
+  letter-spacing: 0%;
   color: #333;
   transition: background 0.1s ease;
   border-top: 1px solid #f0f0f0;
