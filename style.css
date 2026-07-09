@@ -32,7 +32,7 @@ h6 {
 
 header>main {
   padding: 10vh 10vw;
-  height: 80vh;
+  height: 75vh;
   text-align: center;
   background-image: url('images/background-test.png');
   background-size: cover;
@@ -46,6 +46,7 @@ header>main>div {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 10vh;
 }
 
 header .btn-container {
@@ -812,6 +813,10 @@ footer ul li a {
     line-height: 105%;
   }
 
+  footer div h4 {
+    font-size: 18px;
+  }
+
   .section-title {
     font-size: 18px;
     line-height: 100%;
@@ -1242,4 +1247,8 @@ button {
 
 nav.active {
   background-color: #E7E9ED;
+}
+
+#close-icon {
+  display: none;
 }

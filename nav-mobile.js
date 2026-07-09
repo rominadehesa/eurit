@@ -1,4 +1,6 @@
 const btnBurger = document.getElementById('btn-burger');
+const burgerIcon = document.getElementById('burger-icon');
+const closeIcon = document.getElementById('close-icon');
 const nav = document.getElementById('nav-mobile');
 const header = document.querySelector('nav');
 
@@ -7,6 +9,8 @@ btnBurger.addEventListener('click', function (e) {
 
     nav.classList.toggle('active');
     header.classList.toggle('active');
+    burgerIcon.style.display = nav.classList.contains('active') ? 'none' : 'block';
+    closeIcon.style.display = nav.classList.contains('active') ? 'block' : 'none';
 
     if (nav.classList.contains('active')) {
         nav.style.padding = "2vh 4vw";
