@@ -5,10 +5,10 @@
         "de": "Deutsch"
     },
     "nav": {
-         "home": "Startseite",
+        "home": "Startseite",
         "about": "Über uns",
         "services": "Unsere Leistungen",
-        "sector" : "Lösungen und Dienstleistungen",
+        "sector": "Lösungen und Dienstleistungen",
         "why": "Warum wir",
         "contact": "Kontakt"
     },
@@ -65,25 +65,84 @@
         }
     },
     "processes": {
-        "title": "Unsere Kernkompetenzen in der Fertigung",
-        "text": "Dank eines etablierten Netzwerks qualifizierter Gießereien und Fertigungspartner sind wir in der Lage, Komponenten zu liefern, die mit den modernsten Werkstoffverarbeitungstechnologien hergestellt werden.",
+        "title": "",
+        "text": "",
         "card1": {
-            "title": "Präzisions - druckguss",
-            "description": "Hochdruck-Gießverfahren, ideal für große Produktionsserien mit engen Toleranzen, hervorragender Oberflächenqualität und dünnwandigen Bauteilen.",
+            "title": "",
+            "description": "",
             "materials": {
                 "zamak": {
-                    "title": "Zamak (Zinklegierungen)",
-                    "text": "Hervorragende Fließeigenschaften beim Gießen, ideal für komplexe Geometrien, extrem dünne Wandstärken und Bauteile mit hochwertigen galvanischen Oberflächenveredelungen."
+                    "title": "",
+                    "text": ""
                 },
                 "aluminum": {
-                    "title": "Aluminium",
-                    "text": "Die perfekte Kombination aus geringem Gewicht, mechanischer Festigkeit und Wärmeleitfähigkeit für Anwendungen in der Automobil- und Industriebranche."
+                    "title": "",
+                    "text": ""
                 },
                 "magnesium": {
-                    "title": "Magnesium",
-                    "text": "Die bevorzugte Wahl, wenn maximale Gewichtsreduzierung eine entscheidende technische Anforderung ist, ohne die strukturelle Steifigkeit zu beeinträchtigen."
+                    "title": "",
+                    "text": ""
                 }
             }
+        },
+        "card2": {
+            "title": "",
+            "description": "",
+            "item": ""
+        },
+        "card3": {
+            "title": "",
+            "description": "",
+            "item": ""
+        },
+        "card4": {
+            "title": "",
+            "description": "",
+            "item": ""
         }
+    },
+    "sectors": {
+        "subtitle": "",
+        "title": "",
+        "automotive": "",
+        "heavyVehicles": "",
+        "earthMovingMachines": "",
+        "recreationalProducts": "",
+        "optics": "",
+        "householdAppliances": "",
+        "hydraulics": "",
+        "agriculture": "",
+        "lighting": "",
+        "medical": "",
+        "foodIndustry": "",
+        "industrialAutomation": ""
+    },
+    "whyChooseUs": {
+        "title": "",
+        "subtitle": "",
+        "slides": {
+            "slide1": {
+                "label": "",
+                "text": ""
+            },
+            "slide2": {
+                "label": "",
+                "text": ""
+            },
+            "slide3": {
+                "label": "",
+                "text": ""
+            },
+            "slide4": {
+                "label": "",
+                "text": ""
+            }
+        }
+    },
+    "contact": {
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button": ""
     }
 }

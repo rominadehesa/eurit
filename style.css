@@ -142,7 +142,7 @@ h4 {
   letter-spacing: 1%;
 }
 
-#valori .paragraph2 {
+#stats .paragraph2 {
   margin-top: 14px;
 }
 
@@ -340,7 +340,7 @@ main>.subtitle {
 }
 
 
-#valori {
+#stats {
   background: var(--primary-background);
   display: flex;
   justify-content: space-around;
@@ -350,19 +350,19 @@ main>.subtitle {
   padding: 50px 150px;
 }
 
-#valori article {
+#stats article {
   display: flex;
   flex-direction: column;
 }
 
-#valori article h2 {
+#stats article h2 {
   font-size: 54px;
   line-height: 100%;
   font-weight: 500;
   letter-spacing: -5%;
 }
 
-#valori article .paragraph2 {
+#stats article .paragraph2 {
   font-size: 18px;
   line-height: 0%;
 }
@@ -772,7 +772,7 @@ footer ul li a {
 
   header>main,
   nav ul,
-  #valori {
+  #stats {
     display: block;
   }
 
@@ -899,13 +899,13 @@ footer ul li a {
     padding: 5vh;
   }
 
-  #valori {
+  #stats {
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
 
-  #valori article h2 {
+  #stats article h2 {
     font-size: 32px;
   }
 
@@ -1091,11 +1091,11 @@ button {
     height: 220px;
   }
 
-  #valori article .paragraph2 {
+  #stats article .paragraph2 {
     line-height: 94%;
   }
 
-  #valori {
+  #stats {
     padding: 30px 70px;
   }
 

@@ -65,25 +65,84 @@
         }
     },
     "processes": {
-        "title": "Our Core Manufacturing Expertise",
-        "text": "Thanks to a well-established network of qualified foundries and manufacturing partners, we are able to supply components produced using some of the most advanced material processing technologies available today.",
+        "title": "",
+        "text": "",
         "card1": {
-            "title": "Precision Die Casting",
-            "description": "High-pressure casting technology ideally suited for high-volume production runs requiring tight tolerances, excellent surface finishes, and thin-wall designs.",
+            "title": "",
+            "description": "",
             "materials": {
                 "zamak": {
-                    "title": "Zamak (Zinc Alloys)",
-                    "text": "Outstanding casting fluidity, making it ideal for complex geometries, ultra-thin walls, and components requiring premium decorative electroplating and surface finishing."
+                    "title": "",
+                    "text": ""
                 },
                 "aluminum": {
-                    "title": "Aluminum:",
-                    "text": "The perfect balance of lightweight performance, mechanical strength, and thermal conductivity for automotive and industrial applications."
+                    "title": "",
+                    "text": ""
                 },
                 "magnesium": {
-                    "title": "Magnesium:",
-                    "text": "The preferred choice when maximum weight reduction is a critical engineering requirement, without compromising structural rigidity."
+                    "title": "",
+                    "text": ""
                 }
             }
+        },
+        "card2": {
+            "title": "",
+            "description": "",
+            "item": ""
+        },
+        "card3": {
+            "title": "",
+            "description": "",
+            "item": ""
+        },
+        "card4": {
+            "title": "",
+            "description": "",
+            "item": ""
         }
+    },
+    "sectors": {
+        "subtitle": "",
+        "title": "",
+        "automotive": "",
+        "heavyVehicles": "",
+        "earthMovingMachines": "",
+        "recreationalProducts": "",
+        "optics": "",
+        "householdAppliances": "",
+        "hydraulics": "",
+        "agriculture": "",
+        "lighting": "",
+        "medical": "",
+        "foodIndustry": "",
+        "industrialAutomation": ""
+    },
+    "whyChooseUs": {
+        "title": "One Partner. Greater Efficiency. Less Complexity.",
+        "subtitle": "Why Choose Us",
+        "slides": {
+            "slide1": {
+                "label": "Decades of Experience",
+                "text": "More than 50 years in the industrial sector have enabled us to build a network of qualified suppliers and develop technical expertise that is difficult to replicate."
+            },
+            "slide2": {
+                "label": "",
+                "text": ""
+            },
+            "slide3": {
+                "label": "",
+                "text": ""
+            },
+            "slide4": {
+                "label": "",
+                "text": ""
+            }
+        }
+    },
+    "contact": {
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button": ""
     }
 }

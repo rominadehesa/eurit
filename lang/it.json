@@ -84,6 +84,66 @@
                     "text": "La scelta d'elezione quando la massima riduzione del peso è un requisito strutturale fondamentale, senza compromettere la rigidità."
                 }
             }
+        },
+        "card2": {
+            "title": "Microfusioni (Investment Casting)",
+            "description": "Produzione di componenti metallici ad altissima precisione geometrica partendo da modelli in cera.",
+            "item": "Consente di realizzare forme geometriche interne ed esterne estremamente complesse, non ottenibili con altre tecnologie di fonderia, riducendo al minimo (o azzerando) le successive lavorazioni meccaniche. n/Applicabile a una vasta gamma di leghe e acciai speciali."
+        },
+        "card3": {
+            "title": "Forgiati (Stampaggio a Caldo)",
+            "description": "Componenti semilavorati ottenuti tramite deformazione plastica del metallo ad alta temperatura.",
+            "item": "Questo processo garantisce caratteristiche meccaniche e di resistenza alla fatica nettamente superiori rispetto ai pezzi di fonderia, rendendolo ideale per componenti critici sottoposti a forti sollecitazioni strutturali."
+        },
+        "card4": {
+            "title": "Lavorazioni Meccaniche di Precisione",
+            "description": "Finitura e lavorazione da barra o su pezzi di fusione/stampaggio.",
+            "item": "Centri di lavoro CNC (Fresatura, Tornitura, Foratura) per garantire le tolleranze centesimali e i requisiti geometrici più stringenti richiesti dal disegno tecnico del cliente."
         }
-    }
+    },
+    "sectors": {
+        "subtitle": "Soluzioni per diversi ambiti industriali",
+        "title": "Settori applicativi",
+        "automotive": "Automotive",
+        "heavyVehicles": "Heavy Vehicles",
+        "earthMovingMachines": "Earth Moving Machines",
+        "recreationalProducts": "Recreational Products",
+        "optics": "Optica",
+        "householdAppliances": "Household Appliances",
+        "tools": "Tools & Work Equipment",
+        "general": "General Industrial Applications"
+    },
+    "whyChooseUs": {
+        "title": "Un unico partner. Più efficienza, meno complessità.",
+        "subtitle": "Perché sceglierci",
+        "slides": {
+            "slide1": {
+                "label": "Esperienza pluridecennale",
+                "text": "Oltre 50 anni di attività nel settore industriale ci hanno permesso di costruire una rete di fornitori qualificati e un know-how tecnico difficilmente replicabile."
+            },
+            "slide2": {
+                "label": "Dalla progettazione alla fornitura in serie",
+                "text": "Affianchiamo i clienti fin dalla fase di sviluppo del prodotto, ottimizzando la scelta del processo produttivo e anticipando potenziali criticità."
+            },
+            "slide3": {
+                "label": "Gestione integrale della fornitura",
+                "text": "Ci occupiamo di tutto: ricerca fornitori, project management, gestione degli ordini in serie, controllo qualità, reclami, logistica e spedizioni."
+            },
+            "slide4": {
+                "label": "Approccio orientato al cliente",
+                "text": "Le vostre esigenze sono al centro di ogni nostra decisione. Non proponiamo soluzioni standard: ogni commessa viene trattata su misura."
+            },
+            "slide5": {
+                "label": "Ottimizzazione della base fornitori",
+                "text": "Riduciamo la complessità del vostro parco fornitori consolidando più commodity in un unico partner, con vantaggi in termini di costi e governance."
+            }
+        }
+    },
+    "contact": {
+        "title": "Parliamo del vostro progetto",
+        "subtitle": "Conttato",
+        "text": "Siamo pronti ad affiancarvi in ogni fase",
+        "button": "Schedule a Consult"
+    },
+    "creators" : "Sito web creato da"
 }
