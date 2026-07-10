@@ -54,14 +54,14 @@
             "card3Description": "Wir gewährleisten einen reibungslosen Kommunikationsfluss und eine kontinuierliche technische Betreuung zwischen Kunde und Produktionsstandort."
         },
         "procurement": {
-            "label": "Projektmanagement & Global Procurement",
-            "description": "Wir fungieren als zentraler und verantwortlicher Ansprechpartner für die Beschaffung von mechanischen Komponenten, Gussteilen und komplexen Baugruppen und entlasten unsere Kunden von der Verwaltung fragmentierter Lieferketten.",
+            "label": "Generalauftragnehmer & Global Procurement",
+            "description": "Wir fungieren als zentraler und verantwortlicher Ansprechpartner für die Beschaffung mechanischer Komponenten, Gussteile und komplexer Baugruppen und entlasten unsere Kunden von der Verwaltung fragmentierter Lieferketten.",
             "card1Title": "Qualifiziertes Global Sourcing",
-            "card1Description": "Durch ein Netzwerk sorgfältig ausgewählter und zertifizierter Lieferanten in Europa, China und Indien gewährleisten wir die Einhaltung westlicher Qualitätsstandards mittels Audits und kontinuierlicher Qualitätskontrollen vor Ort.",
-            "card2Title": "Multi-Commodity-Management",
+            "card1Description": "Wir greifen auf ein Netzwerk sorgfältig ausgewählter und zertifizierter Lieferanten in Europa, China und Indien zurück und gewährleisten durch regelmäßige Audits und Qualitätskontrollen vor Ort die Einhaltung westlicher Qualitätsstandards.",
+            "card2Title": "Multi - Commodity - Management",
             "card2Description": "Wir bündeln die Beschaffung von Komponenten, die mit unterschiedlichen Fertigungstechnologien hergestellt werden – darunter Umformtechnik, Gießereiverfahren und CNC-Bearbeitung – und liefern komplette Pakete oder bereits integrierte Baugruppen.",
             "card3Title": "Logistik-Hub & Exportkonsolidierung",
-            "card3Description": "Wir koordinieren die Auftragsplanung sowie internationale Logistikprozesse. Unsere Struktur ermöglicht die Bündelung von Beschaffung und Transporten verschiedener europäischer Lieferanten in Überseemärkte (z. B. Container-Seefracht für den US-Markt), wodurch Logistikkosten optimiert und Lieferketten effizienter gestaltet werden."
+            "card3Description": "Wir koordinieren die Auftragsplanung und internationale Logistikprozesse. Unsere Struktur ermöglicht die Konsolidierung von Einkäufen und Transporten mehrerer europäischer Lieferanten für Überseemärkte (z. B. Container-Seefracht für den US-Markt) und optimiert dabei Logistikkosten und Prozesse."
         }
     },
     "processes": {

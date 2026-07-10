@@ -44,24 +44,24 @@
         "section": "Our Services",
         "title": "Tailored Solutions",
         "agency": {
-            "label": "Technical Sales Agency",
-            "description": "We operate as a strategic partner, connecting the needs of manufacturing companies with the technological capabilities of leading production facilities and foundries.",
+            "label": "Technical & Commercial Agency",
+            "description": "We act as a strategic partner on the ground, connecting the needs of manufacturing companies with the technological capabilities of leading production facilities and foundries.",
             "card1Title": "Co-Design and Industrialization",
-            "card1Description": "We analyze the customer's technical drawings to identify the most suitable and efficient manufacturing technology.",
+            "card1Description": "We analyze the customer's technical drawings to identify the most suitable and cost-effective manufacturing technology.",
             "card2Title": "Integrated Project Management",
             "card2Description": "We oversee the entire process, from quotation and cost evaluation to tooling and mold production, through to sample validation and approval.",
             "card3Title": "Dedicated Technical Interface",
             "card3Description": "We ensure seamless communication and continuous engineering support between the customer and the manufacturing facility."
         },
         "procurement": {
-            "label": "Project Management & Global Procurement",
-            "description": "We act as a single, accountable partner for the sourcing of mechanical components, castings and complex subassemblies, relieving customers from the challenges of managing fragmented supply chains.",
+            "label": "Lead Contractor & Global Procurement Services",
+            "description": "We serve as a single point of contact responsible for sourcing mechanical components, castings, and complex subassemblies, relieving customers from the challenges of managing fragmented supply chains.",
             "card1Title": "Qualified Global Sourcing",
-            "card1Description": "We leverage a network of carefully selected and certified suppliers across Europe, China and India, ensuring full compliance with Western quality standards through audits and continuous on-site inspections.",
+            "card1Description": "We leverage a network of carefully selected and certified suppliers across Europe, China, and India, ensuring full compliance with Western quality standards through regular audits and on-site inspections.",
             "card2Title": "Multi-Commodity Management",
-            "card2Description": "We centralize the procurement of components manufactured through different technologies, including stamping, foundry processes and CNC machining, delivering either complete packages or fully integrated subassemblies.",
+            "card2Description": "We centralize the procurement of components manufactured through different technologies—including stamping, foundry processes, and CNC machining—delivering complete packages or fully integrated subassemblies.",
             "card3Title": "Logistics Hub & Export Consolidation",
-            "card3Description": "We coordinate order planning and international logistics flows. Our organization is structured to consolidate purchases and shipments from multiple European suppliers to overseas markets (e.g. ocean freight container shipments to the U.S. market), optimizing logistics costs and improving supply chain efficiency."
+            "card3Description": "We coordinate order planning and international logistics flows. Our structure allows us to consolidate purchases and shipments from multiple European suppliers to overseas markets (e.g., containerized ocean freight to the U.S. market), optimizing logistics costs and operational efficiency."
         }
     },
     "processes": {
