@@ -4,6 +4,7 @@
         "en": "English",
         "de": "German"
     },
+
     "nav": {
         "home": "Home",
         "about": "About Us",
@@ -12,12 +13,14 @@
         "why": "Why Choose Us",
         "contact": "Contact"
     },
+
     "header": {
         "title": "Industrial Components and Subassemblies",
         "subtitle": "From Design to Production",
-        "servicesBtn": "Explore Our Services",
+        "servicesBtn": "Discover Our Services",
         "contactBtn": "Contact Us"
     },
+
     "stats": {
         "founded": {
             "number": "1969",
@@ -32,21 +35,23 @@
             "label": "Industries Served"
         }
     },
+
     "about": {
         "section": "About Us",
-        "title": "Your Strategic Partner for Global Industrial Outsourcing",
-        "text1": "Founded in Turin in 1969, with strong roots in European mechanical engineering, we have transformed decades of experience into an operational model designed to meet the challenges of today's global industry.",
-        "text2": "Today, we are a trusted partner in the supply of custom-engineered industrial components, operating both as a technical-commercial agency and as a project manager, providing a single point of contact responsible for coordinating multiple product categories.",
-        "text3": "Thanks to a network of qualified suppliers across Europe, China and India, combined with extensive expertise in international logistics, we connect your projects with the most suitable global manufacturing technologies, ensuring flexibility, reliability and a customer-focused approach tailored to your specific needs.",
+        "title": "Your Strategic Partner for Global Industrial Sourcing",
+        "text1": "Founded in Turin in 1969, with strong roots in European mechanical engineering, we have transformed decades of expertise into an operational model designed to meet the challenges of global industry.",
+        "text2": "Today, we are a trusted partner in the supply of custom-engineered industrial components, operating both as a technical-commercial agency and as a lead contractor, providing a single point of contact responsible for managing multiple product categories.",
+        "text3": "Through a network of qualified suppliers across Europe, China, and India, combined with extensive expertise in international logistics, we connect your projects with the world's most advanced manufacturing technologies, ensuring flexibility, reliability, and a customer-focused approach tailored to your specific needs.",
         "button": "Learn More"
     },
+
     "services": {
         "section": "Our Services",
         "title": "Tailored Solutions",
         "agency": {
             "label": "Technical & Commercial Agency",
             "description": "We act as a strategic partner on the ground, connecting the needs of manufacturing companies with the technological capabilities of leading production facilities and foundries.",
-            "card1Title": "Co-Design and Industrialization",
+            "card1Title": "Co-Design & Industrialization",
             "card1Description": "We analyze the customer's technical drawings to identify the most suitable and cost-effective manufacturing technology.",
             "card2Title": "Integrated Project Management",
             "card2Description": "We oversee the entire process, from quotation and cost evaluation to tooling and mold production, through to sample validation and approval.",
@@ -64,59 +69,58 @@
             "card3Description": "We coordinate order planning and international logistics flows. Our structure allows us to consolidate purchases and shipments from multiple European suppliers to overseas markets (e.g., containerized ocean freight to the U.S. market), optimizing logistics costs and operational efficiency."
         }
     },
+
     "processes": {
-        "title": "",
-        "text": "",
+        "title": "Our Core Manufacturing Expertise",
+        "text": "Thanks to a well-established network of qualified foundries and manufacturing partners, we are able to supply components produced using some of the most advanced material processing technologies available today.",
         "card1": {
-            "title": "",
-            "description": "",
+            "title": "Precision Die Casting",
+            "description": "High-pressure casting technology ideally suited for high-volume production runs requiring tight tolerances, excellent surface finishes, and thin-wall designs.",
             "materials": {
                 "zamak": {
-                    "title": "",
-                    "text": ""
+                    "title": "Zamak (Zinc Alloys)",
+                    "text": "Outstanding casting fluidity, making it ideal for complex geometries, ultra-thin walls, and components requiring premium decorative electroplating and surface finishing."
                 },
                 "aluminum": {
-                    "title": "",
-                    "text": ""
+                    "title": "Aluminum",
+                    "text": "The perfect balance of lightweight performance, mechanical strength, and thermal conductivity for automotive and industrial applications."
                 },
                 "magnesium": {
-                    "title": "",
-                    "text": ""
+                    "title": "Magnesium",
+                    "text": "The preferred choice when maximum weight reduction is a critical engineering requirement, without compromising structural rigidity."
                 }
             }
         },
         "card2": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Investment Casting",
+            "description": "Production of metal components with exceptionally high dimensional accuracy using wax-pattern molds.",
+            "item": "This process enables the creation of highly complex internal and external geometries that cannot be achieved with conventional casting technologies, significantly reducing—or even eliminating—the need for subsequent machining operations. \nSuitable for a wide range of alloys and specialty steels."
         },
         "card3": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Forgings (Hot Forging)",
+            "description": "Semi-finished components produced through the plastic deformation of metal at high temperatures.",
+            "item": "This process provides significantly superior mechanical properties and fatigue resistance compared to cast components, making it the ideal solution for critical parts subjected to high structural loads and demanding operating conditions."
         },
         "card4": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Precision Machining",
+            "description": "Finishing and machining operations performed on bar stock or on cast and forged components.",
+            "item": "Using advanced CNC machining centers (milling, turning, and drilling), we achieve tight tolerances and the most demanding geometric specifications required by our customers' technical drawings."
         }
     },
+
     "sectors": {
-        "subtitle": "",
-        "title": "",
-        "automotive": "",
-        "heavyVehicles": "",
-        "earthMovingMachines": "",
-        "recreationalProducts": "",
-        "optics": "",
-        "householdAppliances": "",
-        "hydraulics": "",
-        "agriculture": "",
-        "lighting": "",
-        "medical": "",
-        "foodIndustry": "",
-        "industrialAutomation": ""
+        "subtitle": "Solutions for Diverse Industrial Sectors",
+        "title": "Application Industries",
+        "automotive": "Automotive",
+        "heavyVehicles": "Heavy Vehicles",
+        "earthMovingMachines": "Construction & Earthmoving Equipment",
+        "recreationalProducts": "Recreational Products",
+        "optics": "Optics",
+        "householdAppliances": "Household Appliances",
+        "tools": "Tools & Professional Equipment",
+        "general": "General Industrial Applications"
     },
+
     "whyChooseUs": {
         "title": "One Partner. Greater Efficiency. Less Complexity.",
         "subtitle": "Why Choose Us",
@@ -126,23 +130,30 @@
                 "text": "More than 50 years in the industrial sector have enabled us to build a network of qualified suppliers and develop technical expertise that is difficult to replicate."
             },
             "slide2": {
-                "label": "",
-                "text": ""
+                "label": "From Design to Serial Production",
+                "text": "We support our customers from the earliest stages of product development, optimizing manufacturing processes and proactively addressing potential challenges."
             },
             "slide3": {
-                "label": "",
-                "text": ""
+                "label": "End-to-End Supply Management",
+                "text": "We take care of the entire supply chain: supplier sourcing, project management, serial production orders, quality control, claims management, logistics, and shipping."
             },
             "slide4": {
-                "label": "",
-                "text": ""
+                "label": "Customer - Centric Approach",
+                "text": "Your needs are at the heart of every decision we make. We do not offer standard solutions—every project is managed according to its specific requirements."
+            },
+            "slide5": {
+                "label": "Supplier Base Optimization",
+                "text": "We reduce the complexity of your supplier network by consolidating multiple product categories under a single partner, generating benefits in terms of cost efficiency and supply chain governance."
             }
         }
     },
+
     "contact": {
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button": ""
-    }
+        "title": "Let's Discuss Your Project",
+        "subtitle": "Contact",
+        "text": " We're ready to support you at every stage.",
+        "button": "Get in Touch"
+    },
+
+    "creators" : "Website created by"
 }

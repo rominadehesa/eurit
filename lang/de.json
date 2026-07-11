@@ -4,6 +4,7 @@
         "en": "Englisch",
         "de": "Deutsch"
     },
+
     "nav": {
         "home": "Startseite",
         "about": "Über uns",
@@ -12,12 +13,14 @@
         "why": "Warum wir",
         "contact": "Kontakt"
     },
+
     "header": {
-        "title": "Industriekomponenten und Baugruppen",
+        "title": "Industrie ­komponenten und Baugruppen",
         "subtitle": "Von der Entwicklung bis zur Produktion",
         "servicesBtn": "Unsere Leistungen entdecken",
         "contactBtn": "Kontaktieren Sie uns"
     },
+
     "stats": {
         "founded": {
             "number": "1969",
@@ -32,26 +35,28 @@
             "label": "Branchen beliefert"
         }
     },
+
     "about": {
         "section": "Über uns",
         "title": "Ihr strategischer Partner für globale industrielle Beschaffung",
-        "text1": "Gegründet 1969 in Turin und mit starken Wurzeln im europäischen Maschinenbau haben wir unsere jahrzehntelange Erfahrung in ein Geschäftsmodell umgesetzt, das den Herausforderungen der globalen Industrie gerecht wird.",
-        "text2": "Heute sind wir ein zuverlässiger Partner für die Lieferung kundenspezifischer Industriekomponenten. Dabei agieren wir sowohl als technisch-kaufmännische Vertretung als auch als Projektverantwortlicher und bieten einen zentralen Ansprechpartner für die Koordination mehrerer Produktgruppen.",
-        "text3": "Dank eines Netzwerks qualifizierter Lieferanten in Europa, China und Indien sowie umfassender Kompetenz im internationalen Logistikmanagement verbinden wir Ihre Projekte mit den passenden globalen Fertigungstechnologien und gewährleisten Flexibilität, Zuverlässigkeit sowie eine konsequente Ausrichtung an Ihren individuellen Anforderungen.",
+        "text1": "Gegründet 1969 in Turin und mit starken Wurzeln im europäischen Maschinenbau haben wir unsere jahrzehntelange Erfahrung in ein Geschäftsmodell verwandelt, das den Herausforderungen der globalen Industrie gerecht wird.",
+        "text2": "Heute sind wir ein zuverlässiger Partner für die Lieferung von kundenspezifischen Industriekomponenten. Dabei agieren wir sowohl als technisch-kaufmännische Vertretung als auch als Generalauftragnehmer und bieten einen zentralen Ansprechpartner für die Verwaltung verschiedener Produktkategorien.",
+        "text3": "Dank eines Netzwerks qualifizierter Lieferanten in Europa, China und Indien sowie fundierter Kompetenz in der internationalen Logistik verbinden wir Ihre Projekte mit den besten Produktionstechnologien weltweit und gewährleisten Flexibilität, Zuverlässigkeit sowie einen konsequent kundenorientierten Ansatz.",
         "button": "Mehr erfahren"
     },
+
     "services": {
         "section": "Unsere Leistungen",
         "title": "Maßgeschneiderte Lösungen",
         "agency": {
-            "label": "Technisch-kaufmännische Vertretung",
-            "description": "Wir agieren als strategischer Partner und verbinden die Anforderungen von Industrieunternehmen mit den technologischen Kompetenzen führender Produktionsstätten und Gießereien.",
-            "card1Title": "Co-Design und Industrialisierung",
-            "card1Description": "Wir analysieren die technischen Zeichnungen unserer Kunden, um die geeignetste und effizienteste Fertigungstechnologie zu identifizieren.",
+            "label": "Technisch - Kaufmännische Vertretung",
+            "description": "Wir agieren als strategischer Partner vor Ort und verbinden die Anforderungen von Industrieunternehmen mit den technologischen Kompetenzen führender Produktionsstätten und Gießereien.",
+            "card1Title": "Co-Design & Industrialisierung",
+            "card1Description": "Wir analysieren die technischen Zeichnungen unserer Kunden, um die geeignetste und wirtschaftlichste Fertigungstechnologie zu identifizieren.",
             "card2Title": "Integriertes Projektmanagement",
-            "card2Description": "Wir begleiten den gesamten Prozess – von der Angebotserstellung und Kostenkalkulation über die Herstellung von Werkzeugen und Formen bis hin zur Validierung und Freigabe der Erstmuster.",
-            "card3Title": "Dedizierte technische Schnittstelle",
-            "card3Description": "Wir gewährleisten einen reibungslosen Kommunikationsfluss und eine kontinuierliche technische Betreuung zwischen Kunde und Produktionsstandort."
+            "card2Description": "Wir begleiten den gesamten Prozess – von der Angebotserstellung über die Entwicklung von Werkzeugen und Formen bis hin zur Freigabe der Erstmuster.",
+            "card3Title": "Dedizierte Technische Schnittstelle",
+            "card3Description": "Wir gewährleisten eine reibungslose Kommunikation und kontinuierliche technische Unterstützung zwischen Kunde und Produktionsstandort."
         },
         "procurement": {
             "label": "Generalauftragnehmer & Global Procurement",
@@ -59,90 +64,96 @@
             "card1Title": "Qualifiziertes Global Sourcing",
             "card1Description": "Wir greifen auf ein Netzwerk sorgfältig ausgewählter und zertifizierter Lieferanten in Europa, China und Indien zurück und gewährleisten durch regelmäßige Audits und Qualitätskontrollen vor Ort die Einhaltung westlicher Qualitätsstandards.",
             "card2Title": "Multi - Commodity - Management",
-            "card2Description": "Wir bündeln die Beschaffung von Komponenten, die mit unterschiedlichen Fertigungstechnologien hergestellt werden – darunter Umformtechnik, Gießereiverfahren und CNC-Bearbeitung – und liefern komplette Pakete oder bereits integrierte Baugruppen.",
+            "card2Description": "Wir bündeln die Beschaffung von Komponenten aus unterschiedlichen Fertigungstechnologien – darunter Umformtechnik, Gießereitechnik und CNC-Bearbeitung – und liefern komplette Pakete oder bereits integrierte Baugruppen.",
             "card3Title": "Logistik-Hub & Exportkonsolidierung",
             "card3Description": "Wir koordinieren die Auftragsplanung und internationale Logistikprozesse. Unsere Struktur ermöglicht die Konsolidierung von Einkäufen und Transporten mehrerer europäischer Lieferanten für Überseemärkte (z. B. Container-Seefracht für den US-Markt) und optimiert dabei Logistikkosten und Prozesse."
         }
     },
+    
     "processes": {
-        "title": "",
-        "text": "",
+        "title": "Unsere Kernkompetenzen in der Fertigung",
+        "text": "Dank eines etablierten Netzwerks qualifizierter Gießereien und Fertigungspartner sind wir in der Lage, Komponenten zu liefern, die mit den modernsten Werkstoffverarbeitungstechnologien hergestellt werden.",
         "card1": {
-            "title": "",
-            "description": "",
+            "title": "Präzisions - druckguss",
+            "description": "Hochdruck-Gießverfahren, ideal für große Produktionsserien mit engen Toleranzen, hervorragender Oberflächenqualität und dünnwandigen Bauteilen.",
             "materials": {
                 "zamak": {
-                    "title": "",
-                    "text": ""
+                    "title": "Zamak (Zinklegierungen)",
+                    "text": "Hervorragende Fließeigenschaften beim Gießen, ideal für komplexe Geometrien, extrem dünne Wandstärken und Bauteile mit hochwertigen galvanischen Oberflächenveredelungen."
                 },
                 "aluminum": {
-                    "title": "",
-                    "text": ""
+                    "title": "Aluminium",
+                    "text": "Die perfekte Kombination aus geringem Gewicht, mechanischer Festigkeit und Wärmeleitfähigkeit für Anwendungen in der Automobil- und Industriebranche."
                 },
                 "magnesium": {
-                    "title": "",
-                    "text": ""
+                    "title": "Magnesium",
+                    "text": "Die bevorzugte Wahl, wenn maximale Gewichtsreduzierung eine entscheidende technische Anforderung ist, ohne die strukturelle Steifigkeit zu beeinträchtigen."
                 }
             }
         },
         "card2": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Feinguss (Investment Casting)",
+            "description": "Herstellung von Metallkomponenten mit höchster Maß- und Formgenauigkeit auf Basis von Wachsmodellen.",
+            "item": "Dieses Verfahren ermöglicht die Fertigung äußerst komplexer Innen- und Außengeometrien, die mit herkömmlichen Gießverfahren nicht realisierbar sind. Dadurch werden nachgelagerte mechanische Bearbeitungsschritte erheblich reduziert oder sogar vollständig vermieden. \nGeeignet für eine Vielzahl von Legierungen und Spezialstählen."
         },
         "card3": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Schmiede- teile (Warm- schmieden)",
+            "description": "Halbfertige Komponenten, die durch die plastische Umformung von Metall bei hohen Temperaturen hergestellt werden.",
+            "item": "Dieses Verfahren bietet deutlich bessere mechanische Eigenschaften sowie eine höhere Ermüdungsfestigkeit als Gussteile und eignet sich daher ideal für sicherheitsrelevante Bauteile, die hohen strukturellen Belastungen und anspruchsvollen Einsatzbedingungen ausgesetzt sind."
         },
         "card4": {
-            "title": "",
-            "description": "",
-            "item": ""
+            "title": "Präzisions- bearbeitung",
+            "description": "Endbearbeitung und mechanische Bearbeitung von Stangenmaterial sowie von Guss- und Schmiedeteilen.",
+            "item": "Mit modernen CNC-Bearbeitungszentren (Fräsen, Drehen und Bohren) gewährleisten wir engste Toleranzen und die anspruchsvollsten geometrischen Anforderungen gemäß den technischen Zeichnungen unserer Kunden."
         }
     },
+
     "sectors": {
-        "subtitle": "",
-        "title": "",
-        "automotive": "",
-        "heavyVehicles": "",
-        "earthMovingMachines": "",
-        "recreationalProducts": "",
-        "optics": "",
-        "householdAppliances": "",
-        "hydraulics": "",
-        "agriculture": "",
-        "lighting": "",
-        "medical": "",
-        "foodIndustry": "",
-        "industrialAutomation": ""
+        "subtitle": "Lösungen für verschiedene Industriezweige",
+        "title": "Anwendungsbereiche",
+        "automotive": "Automobilindustrie",
+        "heavyVehicles": "Nutzfahrzeuge",
+        "earthMovingMachines": "Baumaschinen und Erdbewegungsmaschinen",
+        "recreationalProducts": "Freizeitprodukte",
+        "optics": "Optik",
+        "householdAppliances": "Haushaltsgeräte",
+        "tools": "Werkzeuge und Arbeitsausrüstung",
+        "general": "Allgemeine Industrieanwendungen"
     },
+
     "whyChooseUs": {
-        "title": "",
-        "subtitle": "",
+        "title": "Ein Partner. Mehr Effizienz. Weniger Komplexität.",
+        "subtitle": "Warum wir",
         "slides": {
             "slide1": {
-                "label": "",
-                "text": ""
+                "label": "Jahrzehntelange Erfahrung",
+                "text": "Mehr als 50 Jahre Erfahrung in der Industrie haben es uns ermöglicht, ein Netzwerk qualifizierter Lieferanten aufzubauen und technisches Know-how zu entwickeln, das nur schwer zu ersetzen ist."
             },
             "slide2": {
-                "label": "",
-                "text": ""
+                "label": "Von der Entwicklung bis zur Serienproduktion",
+                "text": "Wir begleiten unsere Kunden bereits in der Produktentwicklungsphase, optimieren die Auswahl der Fertigungsprozesse und erkennen potenzielle Herausforderungen frühzeitig."
             },
             "slide3": {
-                "label": "",
-                "text": ""
+                "label": "Ganzheitliches Liefermanagement",
+                "text": "Wir übernehmen die gesamte Lieferkette: Lieferantensuche, Projektmanagement, Serienaufträge, Qualitätskontrolle, Reklamationsmanagement, Logistik und Versand."
             },
             "slide4": {
-                "label": "",
-                "text": ""
+                "label": "Kundenorientierter Ansatz",
+                "text": "Ihre Anforderungen stehen im Mittelpunkt unseres Handelns. Wir bieten keine Standardlösungen – jedes Projekt wird individuell und maßgeschneidert betreut."
+            },
+            "slide5": {
+                "label": "Optimierung der Lieferantenbasis",
+                "text": "Wir reduzieren die Komplexität Ihrer Lieferantenstruktur, indem wir verschiedene Produktkategorien bei einem einzigen Partner bündeln – mit Vorteilen hinsichtlich Kosten, Effizienz und Steuerung der Lieferkette."
             }
         }
     },
+
     "contact": {
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button": ""
-    }
+        "title": "Sprechen wir über Ihr Projekt",
+        "subtitle": "Kontakt",
+        "text": "Wir stehen Ihnen in jeder Projektphase zur Seite.",
+        "button": "Jetzt Kontakt aufnehmen"
+    },
+
+    "creators" : "Website erstellt von"
 }
