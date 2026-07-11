@@ -624,6 +624,11 @@ main>.subtitle {
   gap: 40px;
 }
 
+#settori .sectors-container article {
+  width: 17vw;
+  height: 300px;
+}
+
 #settori .sectors-container article div {
   border-radius: 20px;
   background: var(--primary-background);
@@ -879,6 +884,7 @@ footer ul li a {
 
   #settori .sectors-container article {
     width: 100%;
+    height: auto;
   }
 
   #settori .sectors-container article div svg {
