@@ -102,9 +102,14 @@
             "item": "Dieses Verfahren bietet deutlich bessere mechanische Eigenschaften sowie eine höhere Ermüdungsfestigkeit als Gussteile und eignet sich daher ideal für sicherheitsrelevante Bauteile, die hohen strukturellen Belastungen und anspruchsvollen Einsatzbedingungen ausgesetzt sind."
         },
         "card4": {
-            "title": "Präzisions- \nbearbeitung",
-            "description": "Endbearbeitung und mechanische Bearbeitung von Stangenmaterial sowie von Guss- und Schmiedeteilen.",
-            "item": "Mit modernen CNC-Bearbeitungszentren (Fräsen, Drehen und Bohren) gewährleisten wir engste Toleranzen und die anspruchsvollsten geometrischen Anforderungen gemäß den technischen Zeichnungen unserer Kunden."
+            "title": "Präzisions- bearbeitung",
+            "description": "CNC - Präzisionsbearbeitung",
+            "item": "Herstellung von Metallkomponenten mit hoher und höchster geometrischer Präzision durch CNC-Zerspanung, ausgehend von Halbzeugen (Stangen, Blöcken und Strangpressprofilen) oder Gussrohlingen. \nDieses Verfahren ermöglicht Toleranzen im Mikrometerbereich sowie hochwertige Oberflächenqualitäten, die mit Gieß- oder Umformverfahren allein nicht erreicht werden können."
+        },
+        "card5": {
+            "title": "M.I.M. (Metal Injection Molding)",
+            "description": "Metallspritzguss (MIM)",
+            "item": "Herstellung kleiner Metallkomponenten mit hoher und höchster geometrischer Präzision aus Metallpulvern, die mit polymeren Bindemitteln vermischt werden. \nDieses Verfahren ermöglicht die Fertigung äußerst komplexer dreidimensionaler Geometrien und extrem dünnwandiger Bauteile, die aus dem Kunststoffspritzguss abgeleitet sind und mit konventionellen Zerspanungsverfahren nicht realisierbar wären. Gleichzeitig werden Nachbearbeitungs- und Endbearbeitungsschritte bei Großserien nahezu vollständig eliminiert.\nGeeignet für eine Vielzahl von Edelstählen, Kohlenstoffstählen und Werkzeugstählen."
         }
     },
 

@@ -29,7 +29,7 @@ function applyTranslations(translations) {
         if (el.hasAttribute('placeholder')) {
             el.setAttribute('placeholder', value);
         } else {
-            el.textContent = value;
+            el.innerHTML = value.replace(/\n/g, "<br>");
         }
     });
 }

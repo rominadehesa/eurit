@@ -103,8 +103,13 @@
         },
         "card4": {
             "title": "Precision Machining",
-            "description": "Finishing and machining operations performed on bar stock or on cast and forged components.",
-            "item": "Using advanced CNC machining centers (milling, turning, and drilling), we achieve tight tolerances and the most demanding geometric specifications required by our customers' technical drawings."
+            "description": "CNC Precision Machining",
+            "item": "Production of metal components with high and ultra-high geometric accuracy through CNC machining, using solid semi-finished materials (bars, blocks and extrusions) or cast blanks. \nThis process enables micron-level dimensional tolerances and superior surface finishes that cannot be achieved through casting or forming processes alone."
+        },
+        "card5": {
+            "title": "M.I.M. (Metal Injection Molding)",
+            "description": "Metal Injection Molding (MIM)",
+            "item": "Production of small metal components with high and ultra-high geometric precision using metal powders blended with polymer binders. \nThis process enables the production of highly complex three-dimensional geometries and ultra-thin wall sections, inspired by plastic injection molding and impossible to achieve through conventional machining processes, virtually eliminating secondary finishing operations in high-volume production. \nSuitable for a wide range of stainless steels, carbon steels and tool steels."
         }
     },
 

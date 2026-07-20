@@ -97,8 +97,13 @@
         },
         "card4": {
             "title": "Lavorazioni Meccaniche di Precisione",
-            "description": "Finitura e lavorazione da barra o su pezzi di fusione/stampaggio.",
-            "item": "Centri di lavoro CNC (Fresatura, Tornitura, Foratura) per garantire le tolleranze centesimali e i requisiti geometrici più stringenti richiesti dal disegno tecnico del cliente."
+            "description": "Lavorazioni Meccaniche a Controllo Numerico (CNC)",
+            "item": "Produzione di componenti metallici ad alta e altissima precisione geometrica per asportazione di truciolo partendo da semilavorati pieni (barre, blocchi, estrusi) o grezzi di fonderia. \nConsente di ottenere tolleranze dimensionali millesimali e finiture superficiali speculari eccellenti, non raggiungibili con i soli processi di formatura termica."
+        },
+        "card5": {
+            "title": "M.I.M. (Metal Injection Molding)",
+            "description": "Stampaggio a Iniezione di Metalli (MIM)",
+            "item": "Produzione di piccoli componenti metallici ad altissima precisione geometrica partendo da polveri metalliche miscelate a leganti polimerici. \nConsente di realizzare forme geometriche tridimensionali estremamente complesse e pareti ultra-sottili, mutuate dal mondo dello stampaggio della plastica e non ottenibili con le tradizionali lavorazioni meccaniche, azzerando le riprese di finitura su grandi serie. Applicabile a un'ampia varietà di acciai inossidabili, acciai al carbonio, acciai da utensili."
         }
     },
     "sectors": {
