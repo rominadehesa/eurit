@@ -510,6 +510,39 @@ main>.subtitle {
   gap: 48px;
 }
 
+#processes > .arrows-container {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+
+#processes > .arrows-container span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#processes > .arrows-container span:hover {
+  background: rgba(255, 255, 255, 0.371);
+  cursor: pointer;
+}
+
+#processes > .arrows-container span svg {
+  width: 20px;
+  height: 20px;
+}
+
+#processes > .arrows-container .arrow-left svg {
+  transform: rotate(180deg);
+}
+
+
+
+
 #processes main {
   display: flex;
   align-items: center;
@@ -1076,6 +1109,10 @@ button {
 
   .services-menu li.active .arrow {
     transform: rotate(180deg);
+  }
+
+  #processes > .arrows-container {
+    display: none;
   }
 
   #processes main {
