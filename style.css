@@ -56,8 +56,16 @@ header .btn-container {
   gap: 20px;
 }
 
-.padding-section {
+.padding-section, #processes{
   padding: 20vh 10vw;
+}
+
+#processes {
+  padding-right: 0;
+}
+
+#processes > div {
+   padding-right: 10vw;
 }
 
 
@@ -505,17 +513,18 @@ main>.subtitle {
 #processes main {
   display: flex;
   align-items: center;
-  overflow-x: auto;
+  overflow-x: hidden;
   gap: 16px;
   padding-bottom: 10px;
 }
 
 #processes main article h4 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 120%;
   letter-spacing: -2%;
   color: #F2F2F2;
+  width: 75%;
 }
 
 #processes main article .btn {
@@ -532,6 +541,7 @@ main>.subtitle {
   justify-content: space-between;
   align-items: end;
   gap: 20px;
+  width: 100%;
 }
 
 #processes main article .btn:hover {
@@ -1073,6 +1083,15 @@ button {
     align-items: center;
     justify-content: center;
   }
+  
+  #processes {
+    padding: 20vh 10vw;
+  }
+
+  #processes > div {
+   padding-right: 0;
+  }
+
 
   #processes h2,
   #processes p {
