@@ -1085,7 +1085,7 @@ button {
   }
   
   #processes {
-    padding: 20vh 10vw;
+    padding: 48px 24px;
   }
 
   #processes > div {
@@ -1103,7 +1103,7 @@ button {
   }
 
   #processes main article {
-    width: 80%;
+    width: 75vw;
     height: 25vh;
   }
 
