@@ -62,10 +62,12 @@ header .btn-container {
 
 #processes {
   padding-right: 0;
+  padding-left: 0;
 }
 
 #processes > div {
-   padding-right: 10vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 
@@ -588,6 +590,10 @@ main>.subtitle {
   width: 100%;
 }
 
+#processes main {
+  padding-left: 10vw;
+}
+
 #processes main article .btn:hover {
   background: rgba(255, 255, 255, 0.71);
   cursor: pointer;
@@ -883,7 +889,10 @@ footer ul li a {
     line-height: 100%;
     letter-spacing: -2%;
   }
-
+  #processes > div, #processes main {
+    padding-left: 0;
+  }
+  
   #processes main article h4 {
     font-size: 18px;
   }
