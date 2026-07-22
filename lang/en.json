@@ -160,5 +160,6 @@
         "button": "Get in Touch"
     },
 
-    "creators" : "Website created by"
+    "creators" : "Website created by",
+    "location" : "Turin, Italy"
 }
